@@ -21,7 +21,7 @@ function isUrl(url) {
             homepage = location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : "") + "/" + location.pathname.split("/")[PATH_SEGMENTS_TO_SKIP];
             _context.prev = 3;
             _context.next = 6;
-            return fetch(GITHUB_ISSUES_LINK + issueNumber);
+            return fetch(GITHUB_ISSUES_LINK + body);
 
           case 6:
             response = _context.sent;

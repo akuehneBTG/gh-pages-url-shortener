@@ -4,4 +4,4 @@ const GITHUB_ISSUES_LINK =
 
 const PATH_SEGMENTS_TO_SKIP = 1;
 
-const HOST = "https://akuehneBTG.github.io/gh-pages-url-shortener/";
+const HOST = "akuehneBTG.github.io";

@@ -1,7 +1,7 @@
 // Format: https://api.github.com/repos/{owner}/{repo}/issues/
 const GITHUB_ISSUES_LINK =
-  "https://api.github.com/repos/nelsontky/gh-pages-url-shortener-db/issues/";
+  "https://api.github.com/repos/akuehneBTG/gh-pages-url-shortener/issues/";
 
 const PATH_SEGMENTS_TO_SKIP = 0;
 
-const HOST = "nlsn.cf";
+const HOST = "https://akuehneBTG.github.io/gh-pages-url-shortener/";

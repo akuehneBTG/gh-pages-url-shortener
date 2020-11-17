@@ -18,7 +18,7 @@ function isUrl(url) {
     location.pathname.split("/")[PATH_SEGMENTS_TO_SKIP];
 
   try {
-    const response = await fetch(GITHUB_ISSUES_LINK + issueNumber);
+    const response = await fetch(GITHUB_ISSUES_LINK + body);
 
     if (response.status !== 200) {
       location.replace(homepage);
